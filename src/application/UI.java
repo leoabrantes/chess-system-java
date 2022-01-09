@@ -68,7 +68,7 @@ public class UI {
 			System.out.print("-" + ANSI_RESET);
 		} else {
 			if (piece.getColor() == Color.WHITE) {
-				System.out.print(ANSI_RED + piece + ANSI_RESET);
+				System.out.print(ANSI_WHITE + piece + ANSI_RESET);
 			}
 
 			else {
