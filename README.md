@@ -5,42 +5,51 @@
 <br />  
 
 ## About this Project
-Chess system built 100% in JAVA . <br />
-
-![chess-system](https://github.com/leoabrantes/chess-system/blob/main/img/chess-system.jpg)
-
-
-
-Obs.: All the new registrations are sending to a database (heroku) and the title grade is calculated with new information
+Chess system built in JAVA (100%).
+<br /> 
+Each player choose a source and a target of the table (Column: a -> h / Row: 1 -> 8). 
 
 <br />  
 
-### Platform: <br />
-![Login](Ferramentas.jpg)
+![chess-system](https://github.com/leoabrantes/chess-system-java/blob/main/img/chess-system.jpg)
+<br /> 
+Obs.: WHITE and BLACK player
+
+P - PAWN <br />  
+R - ROOK <br />  
+N - KNIGHT <br />  
+B - BISHOP <br />  
+Q - QUEEN <br />  
+K - KING <br />  
 
 
-### Backend: 
+### CHECKMATE <br /> 
+This app inform when the situation is CHECK or CHECKMATE. <br /> 
+![checkmate](https://github.com/leoabrantes/chess-system-java/blob/main/img/chess-checkmate.jpg)
 <br />
-Frameworks: Springboot, Java, APIRest <br />
-Hostling Platform: Heroku
+Obs.: The piece captured is displayed in screen
 
-### Frontend: 
-<br />
-Frameworks: React, Javascript, Typescript <br />
-Hostling Platform: Netlify
+<br /> <br /> 
 
-
-Website: https://dsmovies-leoabrantes.netlify.app/
+## Target <br /> 
+When a player choose a piece, all the possibilities are displayed on screen. <br /> 
+![target](https://github.com/leoabrantes/chess-system-java/blob/main/img/chess-target.jpg)
 
 <br />
+<br />
 
-## Some Screens
 
-<br /><br />
+The specific rules were coded as well, like: Castling, En Passant and Pawn promotion  <br />
 
-![Login](https://github.com/leoabrantes/dsmovie/blob/main/img/dsmovie02.jpg)
+<br />
+<br />
 
-<br /><br /><br />
 
-![dsmovie](https://github.com/leoabrantes/dsmovie/blob/main/img/dsmovie01.jpg)
+## UML diagram
+
+<br />
+
+![checkmate](https://github.com/leoabrantes/chess-system-java/blob/main/img/chess-dominio.jpg)
+
+<br />
 
